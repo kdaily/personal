@@ -1,169 +1,104 @@
-\documentclass[margin,line]{res}
-
-
-
-\oddsidemargin -0.5in
-\evensidemargin -0.5in
-%% \topmargin -0.25in
-\textheight=10in
-\textwidth=6.0in
-\itemsep=0in
-\parsep=0in
-
-\newenvironment{list1}{
-  \begin{list}{\ding{113}}{%
-      \setlength{\itemsep}{0in}
-      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
-      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
-      \setlength{\leftmargin}{0.17in}}}{\end{list}}
-\newenvironment{list2}{
-  \begin{list}{$\bullet$}{%
-      \setlength{\itemsep}{0in}
-      \setlength{\parsep}{0in} \setlength{\parskip}{0in}
-      \setlength{\topsep}{0in} \setlength{\partopsep}{0in} 
-      \setlength{\leftmargin}{0.2in}}}{\end{list}}
-
-
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+\documentclass[margin,line]{res} 
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+\setlength{\textheight}{10.5in} % increase text height to fit on 1-page 
+\setlength{\topmargin}{-0.25in}
 \begin{document}
 
-\name{Kenneth Daily \vspace*{.1in}}
+%% \name{Kenneth Daily}
+%% \address{8602 Palo Verde Road\\Irvine, CA 92617\\Phone: (949) 300-9572\\E-mail: kdaily@ics.uci.edu}
+
+\name{\LARGE Kenneth Daily}
+\address{\textbf{E-mail:} kenny@kennydaily.net \textbf{Web:} www.kennydaily.net}
+\address{10301 Grosvenor Place Apt 703, North Bethesda, MD 20852}
 
 \begin{resume}
-\section{\sc Contact Information}
-\vspace{.05in}
-\begin{tabular}{@{}p{3in}p{4in}}
- 10 Center Drive & {\it Voice:}  (301) 451-9240 \\
- Building 10, 12N252 &  {\it E-mail:} dailykm@mail.nih.gov\\         
- Bethesda, MD 20892 &  {\it Web:} www.kennydaily.net\\       
- & \\     
-\end{tabular}
 
 
-\section{\sc Research Interests}
-Computational biology, cancer, genomics, high throughput sequencing,\\
-regulation of transcription, data mining, machine learning
+\section{Objective}
+Work in a collaborative environment building tools and performing computational analyses of high-throughput genomic data to support biological research.
 
-\section{\sc Experience}
-        {\bf Center for Cancer Research, NCI, NIH}, Bethesda, MD USA\\
-        \vspace*{-.1in}
-        \begin{list1}
-        \item[] Postdoctoral Fellow, Dermatology Branch, July 2011 - Present
-          \begin{list2}
-            \vspace*{.025in}
-          \item Primary Investigator: Dr. Isaac Brownell, M.D., Ph.D.
-          \end{list2}
-          %% \vspace*{.025in}
-        \end{list1}
+\section{Current Position}
+Postdoctoral Fellow, Dermatology Branch  (July 2011 - Present)\\
+Center for Cancer Research, NCI, NIH, Bethesda, MD USA \\
+Primary Investigator: Dr. Isaac Brownell, M.D., Ph.D.
 
-\section{\sc Education}
-        {\bf University of California, Irvine}, Irvine, California USA\\
-        %{\em Department of Statistics} 
-        \vspace*{-.1in}
-        \begin{list1}
-        \item[] Ph.D., Computer Science, September 2011
-          \begin{list2}
-            \vspace*{.025in}
-          \item Advisors: Prof. Pierre Baldi, Prof. Suzanne Sandmeyer
-          \end{list2}
-          %% \vspace*{.05in}
-        \end{list1}
-        {\bf Indiana University}, Bloomington, Indiana USA\\
-        \vspace*{-.1in}
-        \begin{list1}
-        \item[] M.S., Bioinformatics, June 2006
-          \begin{list2}
-            \vspace*{.05in}
-          \item Advisor: Prof. Predrag Radivojac
-          \end{list2}
-          \vspace*{.05in}
-        \item[] B.A., Informatics, June 2004           
-          \begin{list2}
-            \vspace*{.05in}
-          \item Advisor: Prof. Dennis Groth
-          \end{list2}
-        \end{list1}
-                  
-        \section{\sc Honors and Awards} 
-        Fellows Award for Research Excellence (Travel award), 2014. \\
-        Cancer Research Training Award, National Cancer Institute, 2011 - present.\\
-        Graduate Dean’s Dissertation Fellowship, UC Irvine, 2011\\
-        Best Presentation, NLM Informatics Training Conference. Denver, CO, June 2010.\\
-        Travel Award, ISCB ISMB, Stockholm, Sweden, June 2009.\\
-        Biomedical Informatics Training Grant, National Library of Medicine, 2006 - 2010.\\
-        Travel Award, IEEE CIS CIBCB, November 2005.\\ %% Computational Intelligence in Bioinformatics and Computational Biology
-        Informatics Barwise Scholar, Indiana University, 2004 - 2006.
+\section{Current work}
+I am applying integrative analysis methods to high throughput genomic and transcriptomic data for Merkel cell carcinoma to identify tumorigenic factors and potential prognostic and therapeutic targets.
 
-        \section{\sc Publications}
-        Xiaojie Qi, \textbf{Kenneth Daily,} Kim Nguyen, Haoyi Wang, David Mayhew, Paul Rigor, Sholeh Forouzan, Mark Johnston, Robi David Mitra, Pierre Baldi and Suzanne Sandmeyer. ``Retrotransposon profiling of RNA polymerase III initiation sites.'' Genome Research, April 2012. PMCID: PMC3317150
-        
-        \textbf{Kenneth Daily,} Vishal R Patel, Paul Rigor, Xiaohui Xie and Pierre Baldi. "MotifMap: integrative genome-wide maps of regulatory motif sites for model species." BMC Bioinformatics December 2011.PMCID: PMC3293935
+\section{Education}
+Ph.D., Computer Science, University of California, Irvine, 2011\\%% (Advisors: Prof. Pierre Baldi and Prof. Suzanne Sandmeyer)\\ 
+M.S., Bioinformatics, Indiana University, 2006\\%% (Advisor: Prof. Predrag Radivojac)\\
+B.S., Informatics, Indiana University, 2004%% (Advisor: Prof. Dennis Groth)
 
-        \textbf{Kenneth Daily,} Paul Rigor, Scott Christley, Xiaohui Xie, Pierre Baldi. ``Data Structures and Compression Algorithms for High-Throughput Sequencing Technologies.'' BMC Bioinformatics, October 2010. PMCID: PMC2964686
+\section{Research\\Interests}
+Computational biology, genomics, high throughput sequencing, software and analysis pipeline development, visualization and integration, data mining, machine learning, applied statistics
 
-        S. Joshua Swamidass, Chloe-Agathe Azencott, \textbf{Kenneth Daily,} Pierre Baldi. ``A CROC stronger than ROC: measuring, visualizing and optimizing early retrieval.'' Bioinformatics, May 2010. PMCID: PMC2865862.
-        
-        \textbf{Kenneth Daily,} Predrag Radivojac, A. Keith Dunker. ``Intrinsic disorder and protein modifications: building an SVM predictor for methylation.'' IEEE Symposium on Computational Intelligence in Bioinformatics and Computational Biology, CIBCB 2005, pp. 475-481, San Diego, California, U.S.A., November 2005.
-        
-        %% \section{\sc Papers in preparation}
-        %% \textbf{Kenneth Daily,} Paul Rigor, Sholeh Forouzan, Yimeng Dou, Vishal Patel, Xiaohui Xie and Pierre Baldi. ``Genome-wide maps of candidate regulatory motif sites.'' In Preparation.
-        
-        %% Suzanne Sandmeyer, Kim Nguyen, \textbf{Kenneth Daily,} Xiaojie Qi, Pierre Baldi. ``Analysis of the Ty3 Retrotransposon in Saccharomyces cerevisiae Using Transposition Assays and High Throughput Sequencing Technologies.'' In Preparation.
-        
-        %% W. Jacob B. Biesinger, Jane Cho, \textbf{Kenneth Daily,} Paul Rigor, Douglas Bornemann, Rahul Warrior, Pierre Baldi, Kavita Arora, and Xiaohui Xie. ``A Map of Candidate Regulatory Motifs in Fly.'' In Preparation.
-        
-        \newpage
+\section{Skills} 
+\textbf{Languages:} R (Bioconductor), Python (Django, Ruffus, Snakemake), GNU Linux shell, Perl (BioPerl), HTML/CSS (Bootstrap), SQL, XML, Java, C/C++\\
+\textbf{Applications:} Git, Galaxy, \LaTeX, Sun Grid Engine/PBS, Circos, MySQL\\
+\textbf{Bioinformatics:} DNASeq, RNASeq, aCGH, microarray, TFBS prediction\\
+\textbf{Methods:} Familiar with frequentist and Bayesian statistics, machine learning
 
-        \section{\sc Conference Presentations}
-        ``The UISO cell line is not representative of Merkel cell carcinoma tumors.'' Poster, Great Lakes Bioinformatics Conference. Pittsburgh, PA, 2013.
 
-        ``MotifMap: Genome-Wide Map of Regulatory Binding Sites.'' Poster, Society for Investigative Dermatology Annual Meeting. Raleigh, NC, 2012.
+\section{Past Projects}
+%% \begin{itemize}
+%% \itemsep -2pt % reduce space between items
+%% Analysis of Transcriptional Regulation in Skin Cells Related to Wounding 2011
+Developed methods for analysis of genome-wide transcriptional regulation, 2011 \\
+Analyzed next gen sequencing data of the yeast Ty3 transposon, 2009\\
+%% Transcriptional Regulatory Control of Neural Stem Cell Development, 2011\\
+Developed compression methods for next gen sequencing data, 2009 \\
+Evaluated similarity metrics for chemical search, 2006\\
+Predicted posttranslational protein modifications, 2004-2006
+%% \end{itemize}
 
-        ``MotifMap: Genome-Wide Map of Regulatory Binding Sites.'' Poster, HTS to P4 Medicine Conference. UC Irvine, Irvine, CA, February 2011.
-        
-        ``MotifMap: Genome-Wide Map of Regulatory Binding Sites.'' NLM Informatics Training Conference. Denver, CO, June 2010.
+\section{Publications}
+\textbf{K Daily}, A Coxon, JS Williams, CR Lee, DG Coit, KJ Busam, I Brownell. ``Assessment of Cancer Cell Line Representativeness using Microarrays for Merkel Cell Carcinoma.'' Submitted, Mar 2014. \\
+AS Hopkin, W Gordon, RH Klein, F Espitia, \textbf{K Daily,} M Zeller, P Baldi, B Andersen. ``GRHL3/GET1 and Trithorax Group Members Collaborate to Activate the Epidermal Progenitor Differentiation Program.'' PLOS Genetics, July 2012. PMCID: PMC3400561\\
+X Qi$^*$, \textbf{K Daily$^*$,} K Nguyen, H Wang, D Mayhew, P Rigor, S Forouzan, M Johnston, RD Mitra, P Baldi and S Sandmeyer. ``Retrotransposon profiling of RNA polymerase III initiation sites.'' Gen. Res., Apr 2012. PMCID: PMC331715 \let\thefootnote\relax\footnote{$^*$ Co-first authors} \\
+\textbf{K Daily,} VR Patel, P Rigor, X Xie and P Baldi. ``MotifMap: integrative genome-wide maps of regulatory motif sites for model species.'' BMC Bioinfo., Dec 2011. PMCID: PMC3293935\\
+\textbf{K Daily,} P Rigor, S Christley, X Xie, P Baldi. ``Data Structures and Compression Algorithms for High-Throughput Sequencing Technologies.'' BMC Bioinfo., Oct 2010. PMCID: PMC2964686\\
+SJ Swamidass, CA Azencott, \textbf{K Daily,} P Baldi. ``A CROC stronger than ROC: measuring, visualizing and optimizing early retrieval.'' Bioinformatics, May 2010. PMCID: PMC2865862.\\
+\textbf{K Daily,} P Radivojac, AK Dunker. ``Intrinsic disorder and protein modifications: building an SVM predictor for methylation.'' IEEE Symposium CIBCB 2005, San Diego, CA, Nov 2005.
 
-        ``Analysis of the Ty3 Retrotransposon in Saccharomyces cerevisiae Using Transposition Assays and High Throughput Sequencing Technologies.'' NLM Informatics Training Conference. Portland, OR, June 2009.
+\section{Presentations}
+``Oncogenomic analysis of Merkel cell carcinoma.'' Poster, ISMB. Boston, MA, 2014.\\
+``The UISO cell line is not representative of Merkel cell carcinoma tumors.'' Poster, ISMB. Long Beach, CA, 2013.\\
+``MotifMap: Genome-Wide Map of Regulatory Binding Sites.'' NLM Informatics Training Conference. Denver, CO, June 2010.\\
+``Analysis of the Ty3 Retrotransposon in S. cerevisiae Using Transposition Assays and HTS Technologies.'' NLM Informatics Training Conference. Portland, OR, June 2009.\\
+``Data Structures and Compression Algorithms for High-Throughput Sequencing.'' Poster, ISMB. Stockholm, Sweden, June 2009.
 
-        ``Data Structures and Compression Algorithms for High-Throughput Sequencing.'' Poster, International Conference on Intelligent Systems for Molecular Biology. Stockholm, Sweden, June 2009.
+\section{Awards}
+Fellows Award for Research Excellence, Center for Cancer Research, 2014\\
+Cancer Research Training Award, National Cancer Institute, 2011 - present\\
+Graduate Dean’s Dissertation Fellowship, UC Irvine, 2011\\
+Biomedical Informatics Training Grant, National Library of Medicine, 2006 - 2010\\
+Informatics Barwise Scholar, Indiana University, 2004 - 2006
 
-        \section{\sc Teaching}
-        Teaching Assistant, University of California, Irvine, 2010 - 2011 \\
-        Associate Instructor, Indiana University School of Informatics, 2004 - 2006 \\
-        Course Instructor, Indiana University School of Informatics, Summer 2005
-                
-        \section{\sc Skills} 
-        \begin{list2}
-        \item Languages: Python (TurboGears, Django), R (Bioconductor), Gnu Linux/Unix shell, Perl (with BioPerl), Matlab, PHP, Java, HTML (CSS), C/C++, SQL, XML.
-        \item Applications: Git, \LaTeX, MySQL, Sun Grid Engine/PBS
-        \item Operating Systems:  Linux/Unix, Windows.
-        \item Bench work: Basic molecular biology methods for bacteria, yeast, fly, and mouse ([rt]PCR, gel electrophoresis, primer design, transformation, DNA extraction and sequencing,\\ Northern/Western/Southern blots, mouse handling, genotyping)
-        \end{list2}
+%% \section{Teaching}
+%% Teaching Assistant, University of California, Irvine, 2010 - 2011 \\
+%% Associate Instructor, Indiana University School of Informatics, 2004 - 2006 \\
+%% Course Instructor, Indiana University School of Informatics, Summer 2005
 
-        \section{\sc References} 
-        \textbf{Professor Pierre Baldi}
-        \begin{list2}
-          \item[] School of Information and Computer Sciences
-          \item[] 4038 Bren Hall
-          \item[] University of California, Irvine
-          \item[] Irvine, CA 92697-3435
-          \item[] E-mail: pfbaldi@ics.uci.edu
-          \item[] {\it WWW:} http://www.ics.uci.edu/\verb+~+pfbaldi
-        \end{list2}
+\section{\sc References} 
 
-        \textbf{Professor Suzanne Sandmeyer}
-        \begin{list2}
-          \item[] Department of Biological Chemistry
-          \item[] University of California, Irvine
-          \item[] D240, D288 MED SCI I
-          \item[] Mail Code: 1700
-          \item[] Irvine, CA 92697
-          \item[] E-mail: sbsandme@uci.edu
-          \item[] {\it WWW:} http://webfiles.uci.edu/sbsandme/lab/
-        \end{list2}
+\textbf{Dr. Isaac Brownell, M.D., Ph.D.}\\
+Investigator, Dermatology Branch\\
+Center for Cancer Research\\
+National Cancer Institute\\
+Building 10, Room 12N246\\
+Bethesda, MD 20892-1908\\
+E-Mail: isaac.brownell@nih.gov\\
+
+\textbf{Professor Pierre Baldi, Ph.D.}\\
+School of Information and Computer Sciences\\
+4038 Bren Hall\\
+University of California, Irvine\\
+Irvine, CA 92697-3435\\
+E-mail: pfbaldi@ics.uci.edu\\
 
 \end{resume}
 \end{document}
-
-
-
-
