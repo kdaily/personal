@@ -1,0 +1,17 @@
+[user]
+	name = kdaily
+	email = kdaily@users.noreply.github.com
+[push]
+	default = simple
+[alias]
+	tidy = rebase -i @{u}..
+	# I use git log --oneline a lot, and it's a bit much to type...
+	l = !git log --oneline --decorate --graph
+	
+	# I use git status a lot, too.
+	s = !git status
+	
+	# And diff with automatically colored words is just awesome
+	d = !git diff --color-words
+[core]
+	pager = less -r
