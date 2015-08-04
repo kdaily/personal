@@ -1,0 +1,8 @@
+export PCBCProjectID='syn1773109'
+
+# Pretty synapse query
+function synq(){
+  QUERY=$1;
+  shift;
+  synapse query ${QUERY} | cols $* -
+}
